@@ -16,3 +16,7 @@ To use this integration, first copy the files into the custom_components, then a
 # Screenshot of a card with the data recieved
 ![image](solardatalogger.png)
 
+
+
+# Screenshot of entites added to Home Assistant
+![image](solardatalogger_entities.png)
