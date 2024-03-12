@@ -1,0 +1,15 @@
+[
+{"name":"grid_voltage"                 ,"vname":"voltage"       ,"icon":"mdi:transmission-tower","devclass":"SensorStateClass.MEASUREMENT","unit":"V","statclass":"","doupdate":"True"           , "multi":"0"},
+{"name":"grid_frequency"               ,"vname":"freq"       ,"icon":"mdi:transmission-tower","devclass":"SensorStateClass.MEASUREMENT","unit":"Hrz","statclass":"","doupdate":"True"         , "multi":"0"},
+{"name":"ac_output_voltage"            ,"vname":"voltage"       ,"icon":"mdi:home-lightning-bolt","devclass":"SensorStateClass.MEASUREMENT","unit":"V","statclass":"","doupdate":"True"          , "multi":"0"},
+{"name":"ac_output_frequency"          ,"vname":"freq"       ,"icon":"mdi:home-lightning-bolt","devclass":"SensorStateClass.MEASUREMENT","unit":"Hrz","statclass":"","doupdate":"True"        , "multi":"0"},
+{"name":"ac_output_active_power"       ,"vname":"activepower"       ,"icon":"mdi:home-lightning-bolt","devclass":"SensorStateClass.MEASUREMENT","unit":"Kwh","statclass":"","doupdate":"True"        , "multi":"1000"},
+{"name":"ac_output_load_percent"       ,"vname":"load"       ,"icon":"mdi:home-lightning-bolt","devclass":"SensorStateClass.MEASUREMENT","unit":"%","statclass":"","doupdate":"True"          , "multi":"0"},
+{"name":"battery_voltage"              ,"vname":"voltage"       ,"icon":"mdi:battery-charging-outline","devclass":"SensorStateClass.MEASUREMENT","unit":"V","statclass":"","doupdate":"True"     , "multi":"0"},
+{"name":"battery_charging_current"     ,"vname":"chargingcurrent"       ,"icon":"mdi:battery-charging-outline","devclass":"SensorStateClass.MEASUREMENT","unit":"A","statclass":"","doupdate":"True"     , "multi":"0"},
+{"name":"battery_capacity"             ,"vname":"capacity"       ,"icon":"mdi:battery","devclass":"SensorStateClass.MEASUREMENT","unit":"%","statclass":"","doupdate":"True"                      , "multi":"0"},
+{"name":"battery_discharge_current"    ,"vname":"dischargecurent"       ,"icon":"mdi:battery-charging-outline","devclass":"SensorStateClass.MEASUREMENT","unit":"A","statclass":"","doupdate":"True"     , "multi":"0"},
+{"name":"pv_input_current_for_battery" ,"vname":"current"       ,"icon":"mdi:solar-power-variant-outline","devclass":"SensorStateClass.MEASUREMENT","unit":"A","statclass":"","doupdate":"True"  , "multi":"0"},
+{"name":"pv_input_voltage"             ,"vname":"voltage"       ,"icon":"mdi:solar-power-variant-outline","devclass":"SensorStateClass.MEASUREMENT","unit":"V","statclass":"","doupdate":"True"  , "multi":"0"},
+{"name":"pv_charging_power"            ,"vname":"power"       ,"icon":"mdi:solar-power-variant-outline","devclass":"SensorStateClass.MEASUREMENT","unit":"Kwh","statclass":"","doupdate":"True", "multi":"1000"}
+]
